@@ -22,7 +22,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Flutter-CA-TDD" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ZrsvXc1hPvCYfr57Z0RXxuJoml" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -30,6 +30,7 @@
     <property name="dart.analysis.tool.window.force.activate" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RunDashboard">
@@ -44,21 +45,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Flutter Test.should get trivia from repository (1)">
+  <component name="RunManager" selected="Flutter Test.should return a JSON map containing the proper data">
+    <configuration name="fromJson" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
+      <option name="testName" value="fromJson" />
+      <option name="testFile" value="$PROJECT_DIR$/test/features/number_trivia/data/models/number_trivia_model_test.dart" />
+      <method v="2" />
+    </configuration>
+    <configuration name="should be a subclass of NumberTrivia Entity" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
+      <option name="testName" value="should be a subclass of NumberTrivia Entity" />
+      <option name="testFile" value="$PROJECT_DIR$/test/features/number_trivia/data/models/number_trivia_model_test.dart" />
+      <method v="2" />
+    </configuration>
     <configuration name="should get trivia from repository (1)" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
       <option name="testName" value="should get trivia from repository" />
       <option name="testFile" value="$PROJECT_DIR$/test/features/number_trivia/domain/usecases/get_random_number_trivia_test.dart" />
       <method v="2" />
     </configuration>
-    <configuration name="should get trivia from repository" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
-      <option name="testName" value="should get trivia from repository" />
-      <option name="testFile" value="$PROJECT_DIR$/test/features/number_trivia/domain/usecases/get_concrete_number_trivia_test.dart" />
+    <configuration name="should return a JSON map containing the proper data" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
+      <option name="testName" value="should return a JSON map containing the proper data" />
+      <option name="testFile" value="$PROJECT_DIR$/test/features/number_trivia/data/models/number_trivia_model_test.dart" />
+      <method v="2" />
+    </configuration>
+    <configuration name="should return valid model when json number is an integer" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
+      <option name="testName" value="should return valid model when json number is an integer" />
+      <option name="testFile" value="$PROJECT_DIR$/test/features/number_trivia/data/models/number_trivia_model_test.dart" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Flutter Test.should return a JSON map containing the proper data" />
+        <item itemvalue="Flutter Test.fromJson" />
+        <item itemvalue="Flutter Test.should return valid model when json number is an integer" />
+        <item itemvalue="Flutter Test.should be a subclass of NumberTrivia Entity" />
         <item itemvalue="Flutter Test.should get trivia from repository (1)" />
-        <item itemvalue="Flutter Test.should get trivia from repository" />
       </list>
     </recent_temporary>
   </component>
@@ -80,10 +99,17 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
   </component>
 </project>
