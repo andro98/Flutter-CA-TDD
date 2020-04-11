@@ -14,6 +14,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="Andrew" />
+  <component name="FavoritesManager">
+    <favorites_list name="number_trivia" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -30,8 +33,13 @@
     <property name="dart.analysis.tool.window.force.activate" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\My Work\Flutter\Number Trivia\number_trivia\lib\features\number_trivia\presentation\bloc" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -45,39 +53,38 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Flutter Test.should return a JSON map containing the proper data">
-    <configuration name="fromJson" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
-      <option name="testName" value="fromJson" />
-      <option name="testFile" value="$PROJECT_DIR$/test/features/number_trivia/data/models/number_trivia_model_test.dart" />
+  <component name="RunManager" selected="Flutter.main.dart">
+    <configuration name="GetTriviaForConcreteNumber" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
+      <option name="testName" value="GetTriviaForConcreteNumber" />
+      <option name="testFile" value="$PROJECT_DIR$/test/features/number_trivia/presentation/bloc/number_trivia_bloc_test.dart" />
       <method v="2" />
     </configuration>
-    <configuration name="should be a subclass of NumberTrivia Entity" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
-      <option name="testName" value="should be a subclass of NumberTrivia Entity" />
-      <option name="testFile" value="$PROJECT_DIR$/test/features/number_trivia/data/models/number_trivia_model_test.dart" />
+    <configuration name="getConcreteNumberTrivia" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
+      <option name="testName" value="getConcreteNumberTrivia" />
+      <option name="testFile" value="$PROJECT_DIR$/test/features/number_trivia/data/datasources/number_trivia_remote_data_source_test.dart" />
       <method v="2" />
     </configuration>
-    <configuration name="should get trivia from repository (1)" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
-      <option name="testName" value="should get trivia from repository" />
-      <option name="testFile" value="$PROJECT_DIR$/test/features/number_trivia/domain/usecases/get_random_number_trivia_test.dart" />
+    <configuration name="should perfom a GET request on a URL with number being he endpoint and with application/json header" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
+      <option name="testName" value="should perfom a GET request on a URL with number being he endpoint and with application/json header" />
+      <option name="testFile" value="$PROJECT_DIR$/test/features/number_trivia/data/datasources/number_trivia_remote_data_source_test.dart" />
       <method v="2" />
     </configuration>
-    <configuration name="should return a JSON map containing the proper data" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
-      <option name="testName" value="should return a JSON map containing the proper data" />
-      <option name="testFile" value="$PROJECT_DIR$/test/features/number_trivia/data/models/number_trivia_model_test.dart" />
+    <configuration name="stringToUnsignedInt" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
+      <option name="testName" value="stringToUnsignedInt" />
+      <option name="testFile" value="$PROJECT_DIR$/test/core/util/input_converter_test.dart" />
       <method v="2" />
     </configuration>
-    <configuration name="should return valid model when json number is an integer" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
-      <option name="testName" value="should return valid model when json number is an integer" />
-      <option name="testFile" value="$PROJECT_DIR$/test/features/number_trivia/data/models/number_trivia_model_test.dart" />
+    <configuration name="tests in number_trivia_remote_data_source_test.dart" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
+      <option name="testFile" value="$PROJECT_DIR$/test/features/number_trivia/data/datasources/number_trivia_remote_data_source_test.dart" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Flutter Test.should return a JSON map containing the proper data" />
-        <item itemvalue="Flutter Test.fromJson" />
-        <item itemvalue="Flutter Test.should return valid model when json number is an integer" />
-        <item itemvalue="Flutter Test.should be a subclass of NumberTrivia Entity" />
-        <item itemvalue="Flutter Test.should get trivia from repository (1)" />
+        <item itemvalue="Flutter Test.GetTriviaForConcreteNumber" />
+        <item itemvalue="Flutter Test.stringToUnsignedInt" />
+        <item itemvalue="Flutter Test.tests in number_trivia_remote_data_source_test.dart" />
+        <item itemvalue="Flutter Test.getConcreteNumberTrivia" />
+        <item itemvalue="Flutter Test.should perfom a GET request on a URL with number being he endpoint and with application/json header" />
       </list>
     </recent_temporary>
   </component>
